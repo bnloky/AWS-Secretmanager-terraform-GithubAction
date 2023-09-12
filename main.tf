@@ -1,7 +1,5 @@
 provider "aws" {
   region = "ap-south-1"
-  access_key = ${{ secrets.ACCESS_KEY_ID }}
-  secret_key = ${{secrets.SECRET_ACCESS_KEY }}
 }
 
 terraform {
